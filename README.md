@@ -3,7 +3,7 @@ const reducerHaha = (state = [], action) => {
   if(action.type === 'haha'){
     return action.payload.split('');
   }else if(action.type == 'haha2'){
-    return [ ..state, action.payload];
+    return [ ...state, action.payload ];
   }
   return state;
 };
